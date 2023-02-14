@@ -3,7 +3,7 @@ import streamlit as st
 import logging
 import os
 import time
-
+import haystack
 from haystack.document_stores import ElasticsearchDocumentStore
 from haystack.nodes import EmbeddingRetriever
 from haystack.pipelines import FAQPipeline
